@@ -6,22 +6,22 @@ Other Files Submitted for assignment:
 [CodeBook.md](https://github.com/bscucchi/Getting-and-Cleaning-Data/blob/master/CodeBook.md)
 
 
-*run_analysis.R 
+* run_analysis.R 
 Downloads data and builds 2 new datasets called  "merged_tidy_data.txt" and "calc_tidy_dataset.txt".  For details on how these are build please see CodeBook.md
 
-*CodeBook.md
+* CodeBook.md
 Explains what run_analysis does technically.
  
 
 **The run_analysis.R script does the following**
 
-*Pulls Zip file and downloads the dataset locally.
-*The extracts the UCI HAR Dataset folder
-*Loads Subject_test and Train_test data
-*Merges the training and the test sets to create one data set called "merged_tidy_data.txt"
-*Set descriptive activity names to name the activities in the data set
-*Labels the data set with descriptive variable names.
-*Create 2nd dataset from with Average calculation called "calc_tidy_dataset.txt"
+* Pulls Zip file and downloads the dataset locally.
+* The extracts the UCI HAR Dataset folder
+* Loads Subject_test and Train_test data
+* Merges the training and the test sets to create one data set called "merged_tidy_data.txt"
+* Set descriptive activity names to name the activities in the data set
+* Labels the data set with descriptive variable names.
+* Create 2nd dataset from with Average calculation called "calc_tidy_dataset.txt"
  
  
  The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal 
