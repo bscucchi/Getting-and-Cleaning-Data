@@ -38,12 +38,12 @@ run_analysis <- function(){
       
       # New Table from merge into one data set
             data_merged <- cbind(subject, X, activity)
-            write.table(data_merged, "merged_tidy_data.txt")
+            write.table(data_merged, "merged_tidy_data.txt", row.name=FALSE)
       
       # 2nd dataset grouped by subject and activity with average
       data_datatable <- data.table(data_merged)
       calculatedData<- data_datatable[, lapply(.SD, mean), by=c("subjectId", "activity")]
-      write.table(calculatedData, "calc_tidy_data.txt")
+      write.table(calculatedData, "calc_tidy_data.txt", row.name=FALSE)
 }
  
       
