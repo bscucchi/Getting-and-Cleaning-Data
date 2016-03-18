@@ -26,7 +26,7 @@
 	* Merged all into data_merged by combining (X, activity, Subject)
 	* Write merged_tidy_data.txt
 
-* Created 2nd dataset from data_merged above grouped by Subject and Activity.  Also applied SD and Average calculation
+* Created 2nd dataset from data_merged above grouped by Subject and Activity.  Also applied Average calculation
 	* Write tidy dataset with calc and grouping as calc_tidy_dataset.txt
 
 	
